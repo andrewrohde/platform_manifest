@@ -13,6 +13,10 @@
            fetch="https://github.com/"
            review="review.cyanogenmod.org" />
 
+  <remote  name="github"
+           fetch="https://github.com"
+           revision="refs/heads/kitkat" />
+
   <remote name="omni"
            fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
@@ -348,7 +352,7 @@
   <project path="external/zlib" name="AOKP/external_zlib" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="cm" revision="cm-11.0" groups="pdk" />
-  <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="kitkat" />
+  <project path="frameworks/base" name="arohde89/frameworks_base" remote="github" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -611,5 +615,5 @@
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="kitkat" />
 
-  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="kitkat" />
+  <project path="platform_manifest" name="arohde89/platform_manifest" remote="github" revision="kitkat" />
 </manifest>

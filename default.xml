@@ -617,4 +617,5 @@
 
   <project path="platform_manifest" name="arohde89/platform_manifest" remote="github" revision="kitkat" />
   <project path="packages/themes/MadwinTheme" name="arohde89/packages_themes_MadwinTheme" remote="github" revision="kitkat" />
+  <project path="jenkins" name="AOKP/jenkins" remote="aokp" revision="kitkat" />
 </manifest>
